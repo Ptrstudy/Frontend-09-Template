@@ -12,7 +12,8 @@ BUT, the pattern string is a bit interesting. After giving the value to it, it w
 
 ## 3. Javascript Generator
 
-```function* generator() {
+```
+function* generator() {
   yield 1;
   yield 2;
   yield 3;
@@ -22,7 +23,8 @@ const gen = generator(); // "Generator { }"
 
 console.log(gen.next().value); // 1
 console.log(generator().next().value); // 1
-console.log(generator().next().value); // 1```
+console.log(generator().next().value); // 1
+```
 
 I haven't understood it very well.
 Need to learn it more
