@@ -1,0 +1,41 @@
+<script>
+class Animal {
+    speice = "Animal";
+    life = 100;
+    power = 10;
+
+    constructor(speice) {
+        this.speice = speice;
+    }
+    hurt(damage) {
+        this.life -= damage;
+        this.showStatus();
+    }
+    isAlive() {
+        return this.life > 0;
+    }
+    attack() {
+        return this.power;
+    }
+    showStatus() {
+        console.log("Hi, I am a(n) " + this.speice);
+        console.log("I am " +(this.isAlive()? "still": "not") + " alive!");
+    }
+}
+
+class Human extends Animal {
+    constructor() {
+        super("Human");
+    }
+}
+
+class Dog extends Animal {
+    constructor() {
+        super("Dog");
+        this.power = 20;
+    }
+}
+var human = new Human();
+var dog = new Dog();
+human.hurt(dog.attack())
+</script>
