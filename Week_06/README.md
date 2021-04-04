@@ -106,7 +106,7 @@ More reading:
 - http://www.asciitable.com/
 
 
-# Practice 2
+# Practice 3
 
 ```
 function UTF8_Encoding(string){
@@ -142,11 +142,15 @@ function UTF8_Encoding(string){
 (Didn't figure it out. Copied from others)
 
 
-# Practice 3
+# Practice 4
  See dog_bite_human.html,(https://github.com/Ptrstudy/Frontend-09-Template/blob/main/Week_06/dog_bite_human.html)
 
-# Practice 4
+# Practice 5
 The objects containing the non-standard behaviours:
 - Function object ([[call]])
-- Cannot find others
+- Array (length)
+- Object (prototype)
+- String (using index to access its elements)
+- Arguments (arguments)
+- Namespace
 
