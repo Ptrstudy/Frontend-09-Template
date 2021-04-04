@@ -48,16 +48,16 @@ An example for U.S. postal address:
 
 # Practice 2: Classifying Programming Languages
 
-Descriptive programming languages：
+### Descriptive programming languages：
 JSON, HTML, SQL, CSS, XML, XAML, XSLT
 
-Programming languages：
+### Programming languages：
 C, C++, Go, Java, C#, Python, JavaScript, PHP, TypeScript
 
-Declarative programming languages:
+### Declarative programming languages:
 JSON, HTML, SQL, CSS, XML, XAML, XSLT
 
-Functional Programming languages：
+### Functional Programming languages：
 Erlang, LISP, Go, C, C++, Java，C#, Python，Scheme, Clojure, Haskell, JavaScript,  PHP, TypeScript
 
 # Turing completeness
@@ -139,14 +139,14 @@ function UTF8_Encoding(string){
     return buf;
 }
 ```
-(Didn't fingure it out. Copied from others)
+(Didn't figure it out. Copied from others)
 
 
 # Practice 3
- See dog_bite_human.html
+ See dog_bite_human.html,(https://github.com/Ptrstudy/Frontend-09-Template/blob/main/Week_06/dog_bite_human.html)
 
 # Practice 4
-The objects containing the non-standard behiviours:
+The objects containing the non-standard behaviours:
 - Function object ([[call]])
 - Cannot find others
 
