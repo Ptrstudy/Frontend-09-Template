@@ -2,16 +2,18 @@ Study Notes
 
 # Box
 
-Source code: Tag
-Syntax: Element
-Appearance: Box
+- Source code: Tag
+- Syntax: Element
+- Appearance: Box
 
+```
 HTML code includes opening tags, closing tags and self-closing tags.
 A pair of tags(opening & closing) represents an element.
 Elements and other types of nodes are stored in Dom Tree.
 Elements are the target selected by CSS selectors.
 Multiple boxes are generated when performing layouts for the selected elements by CSS selectors.
 Boxes are the basic unit of rendering and performing layouts.
+```
 
 ## Box model
 - Padding
@@ -21,8 +23,8 @@ Boxes are the basic unit of rendering and performing layouts.
 - border-box: width
 - border
 - box-sizing
- - content-box
- - border-box
+  - content-box
+  - border-box
 
 # Normal flow
 
@@ -57,13 +59,12 @@ Boxes are the basic unit of rendering and performing layouts.
 # IFC
 ## Baseline
 - The baseline of an inline-box depends on the text in itself.
- - Using vertical-align is recommended (rather than the base-line-align)
+  - Using vertical-align is recommended (rather than the base-line-align)
 
 ## Text 
 - Refers to Glyph Metrics
 
 ## Line model
-<Image>
 - line-top
 - text-top
 - base-line
@@ -73,11 +74,11 @@ Boxes are the basic unit of rendering and performing layouts.
 # BFC
 
 ## Float & clear (old fashion, it's replaced by flex-box)
- - flat: left
- - flat: right
- - flact impacts its line and all lines in its height range
- - clear can get a clear space for the block
- - using clear to break a line(<br > does't work with float)
+- flat: left
+- flat: right
+- flact impacts its line and all lines in its height range
+- clear can get a clear space for the block
+- using clear to break a line(<br > does't work with float)
 
 ## Margin collapse
  - When two boxes being together in BFC(ONLY)
@@ -120,15 +121,15 @@ Boxes are the basic unit of rendering and performing layouts.
 - floats
 - absolutely positioned elements
 - block containers (such as inline-blocks, table-cells, and table-captions) that do not block boxes,
- - flex items
- - grid cell
- - ...
+  - flex items
+  - grid cell
+  - ...
 - and block boxes with 'overflow' other than 'visible'
 
 ## BFC merging
 - block box && overflow:visible 
- - BFC merging & float
- - BFC merging & margin collapse
+  - BFC merging & float
+  - BFC merging & margin collapse
 
 # Flex (re-visit)
 
