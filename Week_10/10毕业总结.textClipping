@@ -1,0 +1,34 @@
+Learning Review for the first 10 weeks' courses
+
+This first part of this course aims to fulfil the fundamental knowledge for Front-end developers via coding to simulate a part of a compiler, a toy browser, a game. 
+
+# Key learning points
+
+- Coding practice (TicTacToe)
+- Asynchronous
+- Search algorithms
+- LL algorithms
+- Dict_tree, KMP & Wildcard 
+- Reactive ( & Proxy)
+- Re-learning JavaScript
+  - Data type
+  - Expressions
+  - Statements & Declaration 
+  - Runtime
+  - Micro tasks
+- State Machine
+- Toy browser
+
+
+# What I have learned
+- The fundamental knowledge of JavaScript 
+- How the browser works
+- Asynchronous programming with JavaScript
+- Some algorithms
+
+
+# Reflection 
+
+The programming language is the simplest part of the Front-end technical stack, but the whole system has more than a language. 
+Front-end development is a combination of several tools & approaches. 
+As Winter said, to learn FE, the best way will be to work on real projects/tasks to understand and familiar with these tools.
