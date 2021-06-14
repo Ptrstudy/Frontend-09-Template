@@ -20,7 +20,7 @@ Question: webpack-dev-server vs webpack serve?
 
 
 
-# Guesture
+# Gesture
 
 ## Basic
 
