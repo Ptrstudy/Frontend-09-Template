@@ -1,6 +1,6 @@
 Study notes
 
-## how to make a module (not copy files to re-user them)
+## how to make a module
 - Need to do unit test & Lint check
 - End to end testomg is used sometimes
 
@@ -10,7 +10,7 @@ Study notes
 - https://blog.bitsrc.io/3-ways-to-build-your-own-react-component-library-b4d00013a716?gi=d4c1eee3b7e
 
 
-## replace function
+## Replace function
 
 Example from Winter's code
 ```
