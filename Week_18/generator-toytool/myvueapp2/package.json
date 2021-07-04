@@ -1,0 +1,14 @@
+{
+  "name": "myvueapp2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "generators/app/index.js",
+  "scripts": {
+    "build": "webpack",
+    "test": "mocha --require @babel/register",
+    "coverage": "nyc  --require @babel/register macha"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {}
+}
